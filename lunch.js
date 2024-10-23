@@ -14,19 +14,19 @@
  */
 
 const whatToDoForLunch = function(hungry, availableTime) {
-  if (hungry){
+  if (hungry) {
     if (availableTime < 20) {
-      console.log ("Pick up a snack or grab something you already have at home")
+      console.log("Pick up a snack or grab something you already have at home");
     
     } else if (availableTime >= 20 && availableTime <= 30) {
-      console.log ("you deserve a break and should take time to cook a tasty meal")
+      console.log("you deserve a break and should take time to cook a tasty meal");
     
     } else {
-      console.log ("probably reconsider")
+      console.log("probably reconsider");
     }
     
   } else {
-    console.log ("Go back to work")
+    console.log("Go back to work");
 
   }
 };
